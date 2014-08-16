@@ -1,5 +1,8 @@
 
 <!DOCTYPE html>
+
+<!--Theme: MediaVault for Tumblr. By @carlvlewis. MIT license. 2014-->
+
 <script>var __pbpa = true;</script><script>var translated_warning_string = 'Warning: Never enter your Tumblr password unless \u201chttps://www.tumblr.com/login\u201d\x0ais the address in your web browser.\x0a\x0aYou should also see a green \u201cTumblr, Inc.\u201d identification in the address bar.\x0a\x0aSpammers and other bad guys use fake forms to steal passwords.\x0a\x0aTumblr will never ask you to log in from a user\u2019s blog.\x0a\x0aAre you absolutely sure you want to continue?';</script><script type="text/javascript" language="javascript" src="http://assets.tumblr.com/assets/scripts/pre_tumblelog.js?_v=a3e5e7f1b487e101133066aadcff3cde"></script>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -9,6 +12,8 @@
      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	
     <title></title>	
+
+    <!--Setting the subheader text here. Also be sure to replace the last 'link rel="alternate" with your Tumblr blog name so that the RSS feed is correct-->
      <meta name="description" content="HAND-PICKED VISUAL SNIPPETS FROM THE ARCHIVES OF SAVANNAH MORNING NEWS, THE &quot;LIGHT OF THE COASTAL EMPIRE AND LOWCOUNTRY&quot; SINCE 1850.THi" />
      <meta name="if:Show description" content="1" />	
      <meta name="if:Show search" content="1" />
@@ -538,6 +543,8 @@ font-size:14px!important;     }
               <form action="/search" method="get" id="frmSearch">
               <input type="text" id="txtSearch" name="q" value="" />
               </form>    
+
+              <!--Change the description below, and the URL/img src to point to your logo-->
      
         <div id="siteDescription">HAND-PICKED VISUAL SNIPPETS FROM THE ARCHIVES OF <em>SAVANNAH MORNING NEWS</em>, THE "LIGHT OF THE COASTAL EMPIRE AND LOWCOUNTRY" SINCE 1850. For more information or to order copies, see "About this Blog."</div><div> <a href="http://savannahnow.com"><img src="http://i.imgur.com/5jBNQ3n.png" width="280px"></a></img></div>
      
@@ -651,126 +658,7 @@ font-size:14px!important;     }
      
      
      
-<!-- START TRACKING -->
-
-<script type="text/javascript">
-<!--//--><![CDATA[//><!--
-var omni_account = "mdwsavannah";
-var omni_filters = "";
-//--><!]]>
-</script>
-<!-- SiteCatalyst  code version: G.7.Copyright 1997-2004 Omniture, Inc. More info available athttp://www.omniture.com -->
-    <script language="javascript" type="text/javascript">
-	<!--/* You may give each page an identifying name, server, and channel onthe next lines. */
-	var s_pageName= document.title;
-	var s_server="Savannah Morning News - savannahnow.com"
-	var s_channel="news"
-	var s_pageType=""
-	var s_prop1=""
-	var s_prop2=""
-	var s_prop3=""
-	var s_prop4=""
-	var s_prop5=""
-	var s_prop6=""
-	var s_prop7=""
-	var s_prop8=""
-	var s_prop9=""
-	var s_prop10=""
-	// s_prop 11 - 20 dedicated for MDW Corporate
-	var s_prop11="" // Gender
-	var s_prop12="" // Zip Code
-	var s_prop13=""   // Age
-	var s_prop14=""   // Subscriber
-	var s_prop15="SE"    // MDW_Region
-	var s_prop16="Metro"    //  MDW_Group
-	var s_prop17=""  // MDW_Cat
-	var s_prop18=""  // MDW_Sub_Cat
-	var s_prop19=""
-	var s_prop20=""
-
-	/********* INSERT THE DOMAIN AND PATH TO YOUR CODE BELOW ************/
-	//--></script>
-	<!-- End SiteCatalyst code version: G.9. -->
-	<script language="JavaScript" src="http://www.savannahnow.com/includes/s_code.js"></script>
-	<script language="JavaScript" src="http://www.savannahnow.com/includes/omni.js"></script>
-	<!-- End Omniture Information -->
-    
-
-<!-- BEGIN TUMBLR CODE --><iframe scrolling="no" width="1" height="1" frameborder="0" style="background-color:transparent; overflow:hidden; position:absolute; top:0; left:0; z-index:9999;" id="ga_target"></iframe><script type="text/javascript">
-    (function(){
-        var analytics_frame = document.getElementById('ga_target');
-        var analytics_iframe_loaded;
-        var user_logged_in;
-        var blog_is_nsfw = 'No';
-
-        var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
-        var eventer = window[eventMethod];
-        var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
-        eventer(messageEvent,function(e) {
-            var message = (e.data && e.data.split) ? e.data.split(';') : '';
-            switch (message[0]) {
-                case 'analytics_iframe_loaded':
-                    analytics_iframe_loaded = true;
-                    postCSMessage();
-                    postGAMessage();
-                    break;
-                case 'user_logged_in':
-                    user_logged_in = message[1];
-                    postGAMessage();
-                    break;
-            }
-        }, false);
-
-        analytics_frame.src = "http://assets.tumblr.com/analytics.html?bf3144497974403e60441586bd7d5270#http://smnmediavault.tumblr.com";
-        function postGAMessage() {
-            if (analytics_iframe_loaded && user_logged_in) {
-                var is_ajax = false;
-                analytics_frame.contentWindow.postMessage(['tick_google_analytics', is_ajax, user_logged_in, blog_is_nsfw, '/?route=%2F'].join(';'), analytics_frame.src.split('/analytics.html')[0]);
-            }
-        }
-        function postCSMessage() {
-            COMSCORE = true;
-            analytics_frame.contentWindow.postMessage('enable_comscore;' + window.location, analytics_frame.src.split('/analytics.html')[0]);
-        }
-    })();
-</script><script>
-            var _qevents = _qevents || [];
-            (function() {
-                var s = document.createElement('script');
-                var el = document.getElementsByTagName('script')[0];
-                s.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
-                el.parentNode.insertBefore(s, el);
-            })();
-        </script><script type="text/javascript">
-            _qevents.push( { qacct: 'p-19UtqE8ngoZbM' } );
-        </script><noscript><div style="display: none;"><img src="//pixel.quantserve.com/pixel/'p-19UtqE8ngoZbM'.gif" height="1" width="1" alt="Quantcast"/></div></noscript><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1405325525&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvc21ubWVkaWF2YXVsdC50dW1ibHIuY29tXC8iLCJyZXF0eXBlIjowLCJyb3V0ZSI6IlwvIn0=&U=MGFPHOMDOE&K=103a1e175b059ee0e269579ed34d70fbbb24f09e51af384312c4ba93ce1818e7&R=https%3A%2F%2Fwww.google.com%2F'.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1405325525&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvc21ubWVkaWF2YXVsdC50dW1ibHIuY29tXC8iLCJyZXF0eXBlIjowLCJyb3V0ZSI6IlwvIiwibm9zY3JpcHQiOjF9&U=MGFPHOMDOE&K=6ba45156df48295f587cfcae83b8c7374012e91ed128bf11ecdb8cb6a0503dd9&R=https%3A%2F%2Fwww.google.com%2F"></noscript><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1405325525&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL3Ntbm1lZGlhdmF1bHQudHVtYmxyLmNvbVwvIiwicmVxdHlwZSI6MCwicm91dGUiOiJcLyIsInBvc3RzIjpbeyJwb3N0aWQiOiI2NTUyNTA4OTAxMSIsImJsb2dpZCI6IjE0MTExNjI4OCIsInNvdXJjZSI6MzN9XX0=&U=EMNCFLDHHK&K=025feac25e6995358eaa2e853ebc293f63976cad8e7e38660a14ac82371ab21f&R=https%3A%2F%2Fwww.google.com%2F'.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1405325525&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL3Ntbm1lZGlhdmF1bHQudHVtYmxyLmNvbVwvIiwicmVxdHlwZSI6MCwicm91dGUiOiJcLyIsInBvc3RzIjpbeyJwb3N0aWQiOiI2NTUyNTA4OTAxMSIsImJsb2dpZCI6IjE0MTExNjI4OCIsInNvdXJjZSI6MzN9XSwibm9zY3JpcHQiOjF9&U=EMNCFLDHHK&K=833a7114a9ff95480787d62c2a7b0d2d494bfa3d8ad5d56b541e17d78185cedf&R=https%3A%2F%2Fwww.google.com%2F"></noscript><script>
-                    (function() {
-                        var s = document.createElement('script');
-                        var el = document.getElementsByTagName('script')[0];
-                        s.src = ('https:' == document.location.protocol ? 'https://s' : 'http://l') + '.yimg.com/ss/rapid-3.18.1.js';
-                        s.onload = function(){
-                            var YAHOO = window.YAHOO;
-                            if (YAHOO) {
-                                var keys = {
-                                    pd:'/',
-                                    _li:0,
-                                    b_id:141116288,
-                                    i_rad:0,
-                                    i_strm:0
-                                };
-                                var conf = {
-                                                                        spaceid:1197716038,
-                                    client_only:1,
-                                    yql_enabled:false,
-                                    keys:keys,
-                                    nol:1
-                                };
-                                YAHOO.rapid = new YAHOO.i13n.Rapid(conf);
-                            }
-                        };
-                        el.parentNode.insertBefore(s, el);
-                    })();
-                </script><iframe id="tumblr_controls" class="tumblr_controls" width="1" height="1" frameborder="0" scrolling="no" src="http://assets.tumblr.com/assets/html/iframe/o.html?_v=a13cfdf7c11c04f22682820f38975285#src=http%3A%2F%2Fsmnmediavault.tumblr.com%2F&amp;lang=en_US&amp;name=smnmediavault&amp;avatar=http%3A%2F%2F31.media.tumblr.com%2Favatar_6c0499d3a93c_64.png&amp;url=http%3A%2F%2Fsmnmediavault.tumblr.com%2F&amp;page_slide=slide"></iframe><div id="teaser_iframe_container" style="display:none;"><iframe scrolling="no" frameborder="0" src="http://www.tumblr.com/assets/html/iframe/teaser.html?_v=60dee05cd5f990e4b1b3cafabd7e2c61#src=http%3A%2F%2Fsmnmediavault.tumblr.com%2F&amp;lang=en_US&amp;name=smnmediavault&amp;avatar=http%3A%2F%2F31.media.tumblr.com%2Favatar_6c0499d3a93c_64.png&amp;url=http%3A%2F%2Fsmnmediavault.tumblr.com%2F&amp;page_slide=slide" id="teaser_iframe" width="1" height="1"></iframe></div><script type="text/javascript">
+<iframe id="tumblr_controls" class="tumblr_controls" width="1" height="1" frameborder="0" scrolling="no" src="http://assets.tumblr.com/assets/html/iframe/o.html?_v=a13cfdf7c11c04f22682820f38975285#src=http%3A%2F%2Fsmnmediavault.tumblr.com%2F&amp;lang=en_US&amp;name=smnmediavault&amp;avatar=http%3A%2F%2F31.media.tumblr.com%2Favatar_6c0499d3a93c_64.png&amp;url=http%3A%2F%2Fsmnmediavault.tumblr.com%2F&amp;page_slide=slide"></iframe><div id="teaser_iframe_container" style="display:none;"><iframe scrolling="no" frameborder="0" src="http://www.tumblr.com/assets/html/iframe/teaser.html?_v=60dee05cd5f990e4b1b3cafabd7e2c61#src=http%3A%2F%2Fsmnmediavault.tumblr.com%2F&amp;lang=en_US&amp;name=smnmediavault&amp;avatar=http%3A%2F%2F31.media.tumblr.com%2Favatar_6c0499d3a93c_64.png&amp;url=http%3A%2F%2Fsmnmediavault.tumblr.com%2F&amp;page_slide=slide" id="teaser_iframe" width="1" height="1"></iframe></div><script type="text/javascript">
     (function(Tumblr){
         var follow_iframe_initialized = false;
         if (Tumblr.FollowTeaser && Tumblr.PostMessageListener) {
