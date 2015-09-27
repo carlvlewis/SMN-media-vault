@@ -7,9 +7,11 @@ A vintage-style, single-post paginated Tumblr theme to share archival photos and
 
 ## Use-case
 
-The Digital Team at *Savannah Morning News* chose Tumblr as the platform of choice to share pictures of Savannah yesteryear from its archives -– primarily because of Tumblr's ease of use for older staffers as well as the ability to paginate out each post and drive clickthroughs. 
+The Digital Team at *[Savannah Morning News](http://savannahnow.com)* chose Tumblr as the platform of choice to share pictures of Savannah yesteryear from its archives -– primarily because of Tumblr's ease of use for veteran staffers less accustomed to coding to use, as well as the ability to paginate out each post and drive clickthroughs. 
 
-Feel free to [fork this project on Github](http://github, especially if you're a media organization seeking to gain new value from idle stacks of newspapers. Contributions also welcome.
+Feel free to [fork this project on Github](http://github.com/carlvlewis/smn-media-vault), especially if you're a media organization seeking to gain new value from idle stacks of newspapers hidden away in a dusty closet. Contributions also welcome.
+
+*Pro-tip: Digitizing archival photos is super fast if you're able to invest in a Fujitsu SnapScan scanner that scans roughly 30 images a minute*
 
 ## How-to
 * **Easy way**: Simply clone this repo, cut and paste the source code of 'index.html' into your own Tumblr blog and make sure you point all the scripts/dependencies to your server's instance.
